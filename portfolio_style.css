@@ -270,7 +270,6 @@ section .title::after{
 .interests .title::after,
 .contact .title::after{
     background: #111;
-    content: "My Field of Interests";
 }
 .interests .interest-content .card{
     width: calc(33% - 20px);
@@ -308,10 +307,6 @@ section .title::after{
 }
 
 /* personality section styling */
-
-.personality .title::after{
-    content: "How my personality suits my job";
-}
 .personality .personality-content .column{
     width: 45%;
 }
@@ -400,9 +395,6 @@ section .title::after{
 
 
 /* project section styling */
-.project .title::after{
-    content: "what's my project idea";
-}
 .project .project-content .left{
     width: 100%;
 }
